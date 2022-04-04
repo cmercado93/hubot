@@ -13,7 +13,7 @@ const Listener = require('./listener')
 const Message = require('./message')
 const Middleware = require('./middleware')
 
-const HUBOT_DEFAULT_ADAPTERS = ['campfire', 'shell', 'slack-adapter']
+const HUBOT_DEFAULT_ADAPTERS = ['campfire', 'shell', 'slack-adapter', 'rocketchat']
 const HUBOT_DOCUMENTATION_SECTIONS = ['description', 'dependencies', 'configuration', 'commands', 'notes', 'author', 'authors', 'examples', 'tags', 'urls']
 
 const dirName = __dirname
