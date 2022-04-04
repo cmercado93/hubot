@@ -1,0 +1,11 @@
+.github
+docs
+examples
+node_modules
+.editorconfig
+.travis.yml
+*.md
+external-scripts.json
+docker
+!docker/entrypoint.sh
+.hubot_history
